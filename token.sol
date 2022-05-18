@@ -330,9 +330,9 @@ abstract contract LockedToken is ERC20,ERC20Burnable,Ownable{
     }
 }
 
-contract DVTT is LockedToken {
-    string private _name = "Dragonvein Chain";
-    string private _symbol = "DVC";
+contract Token is LockedToken {
+    string private _name = "Token name";
+    string private _symbol = "SYMBOL";
     uint8 private _decimals = 18;
     
     constructor () 
